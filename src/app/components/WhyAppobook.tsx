@@ -22,7 +22,7 @@ const WhyAppobook = () => {
   return (
     <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:max-w-5xl w-full justify-center items-center text-sm lg:flex py-6 mx-auto px-4 md:px-0">
       {boxes.map((box) => (
-        <div className="flex flex-col justify-start items-start p-3 border">
+        <div key={box.h2} className="flex flex-col justify-start items-start p-3 border">
         <span className="rounded-full border p-4 bg-gray-100/50">
           {box.icon}
         </span>
