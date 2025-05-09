@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navigation from "./components/Navigation";
 import HomePage from "./components/HomePage";
 import WhyAppobook from "./components/WhyAppobook";
+import WhatToBook from "./components/WhatToBook";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navigation />
       <HomePage />
       <WhyAppobook />
+      <WhatToBook />
     </main>
   );
 }
